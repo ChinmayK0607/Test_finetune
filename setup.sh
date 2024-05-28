@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Conda installation
-conda install pytorch pytorch-cuda=12.1 cudatoolkit xformers -c pytorch -c nvidia -c xformers -y
+conda install pytorch=2.2.0 pytorch-cuda=12.1 cudatoolkit xformers -c pytorch -c nvidia -c xformers -y
 
 # Pip installations
 pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
